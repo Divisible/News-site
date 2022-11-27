@@ -109,6 +109,8 @@ p {margin: 0.5rem 0;}
 .bg-primary h1, .bg-primary h2, .bg-primary h3, .bg-primary a,
 .bg-secondary h1, .bg-secondary h2, .bg-secondary h3, .bg-secondary a {color: #fff;}
 
+.l-heading {font-size: 3rem;}
+
 .py-1 {padding: 1.5rem 0}
 .py-2 {padding: 2rem 0}
 .py-3 {padding: 3rem 0}
@@ -225,6 +227,17 @@ p {margin: 0.5rem 0;}
 }
 
 #home-articles .articles-container > *:last-child {grid-column: 2 / span 2;}
+
+/* Aricles */
+#article .meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #eee;
+  padding: 0.5rem;
+}
+
+#article .meta .category {margin-top: 0.4rem;}
 
 /* Footer */
 #main-footer {
